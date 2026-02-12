@@ -13,7 +13,7 @@ from pathlib import Path
 from telethon import TelegramClient
 from telethon.errors import SessionPasswordNeededError
 
-SKILL_DIR = Path(__file__).parent
+SKILL_DIR = Path(__file__).parent.parent
 CONFIG_FILE = SKILL_DIR / "config.json"
 SESSION_DIR = SKILL_DIR / "sessions"
 

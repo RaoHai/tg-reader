@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 from telethon import TelegramClient
 
-SKILL_DIR = Path(__file__).parent
+SKILL_DIR = Path(__file__).parent.parent
 CONFIG_FILE = SKILL_DIR / "config.json"
 SESSION_DIR = SKILL_DIR / "sessions"
 
@@ -50,7 +50,7 @@ async def send_code():
         print(f"发送验证码到 {phone}...")
         await client.send_code_request(phone)
         print("验证码已发送！请查看 Telegram 收到的验证码")
-        print(f"然后运行: python3 {SKILL_DIR}/login_step2.py <验证码>")
+        print(f"然后运行: python3 {SKILL_DIR}/scripts/login_step2.py <验证码>")
 
     await client.disconnect()
 

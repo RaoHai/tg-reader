@@ -1,8 +1,8 @@
 {
-  "api_id": "your_api_id",
-  "api_hash": "your_api_hash",
+  "api_id": "你的api_id",
+  "api_hash": "你的api_hash",
   "session_name": "tg_session",
-  "phone": "+8613800000000",
-  "password": "your_2fa_password_optional",
+  "phone": "+86手机号",
+  "password": "两步验证密码(可选)",
   "chat_id": -1001234567890
 }
