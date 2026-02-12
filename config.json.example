@@ -1,0 +1,8 @@
+{
+  "api_id": "your_api_id",
+  "api_hash": "your_api_hash",
+  "session_name": "tg_session",
+  "phone": "+8613800000000",
+  "password": "your_2fa_password_optional",
+  "chat_id": -1001234567890
+}

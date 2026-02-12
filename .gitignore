@@ -1,0 +1,17 @@
+# 敏感配置文件
+config.json
+
+# Session 文件
+sessions/
+*.session
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 临时文件
+*.log
+pending_login.json
