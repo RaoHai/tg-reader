@@ -1,8 +1,6 @@
-# TG Reader 🐕
+# TG Reader
 
 用 Telethon 读取 Telegram 群消息，**包括 bot 消息**！
-
-这是小狗🐕机器人的 skill，由 CC 老师帮忙重写，小狗用 skill-creator 重构。
 
 ## 为什么需要这个？
 
